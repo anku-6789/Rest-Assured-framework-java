@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.63" tests="5" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/amandhare/eclipse-workspace/RestAssuredFramework/target/test-classes:/Users/amandhare/eclipse-workspace/RestAssuredFramework/target/classes:/Users/amandhare/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/amandhare/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/amandhare/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/amandhare/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/amandhare/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/amandhare/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/amandhare/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/amandhare/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/amandhare/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/amandhare/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/amandhare/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/amandhare/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/amandhare/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/amandhare/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/amandhare/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/amandhare/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/amandhare/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/amandhare/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/amandhare/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/amandhare/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/amandhare/.m2/repository/io/rest-assured/json-path/4.1.0/json-path-4.1.0.jar:/Users/amandhare/.m2/repository/org/codehaus/groovy/groovy-json/2.5.6/groovy-json-2.5.6.jar:/Users/amandhare/.m2/repository/io/rest-assured/rest-assured-common/4.1.0/rest-assured-common-4.1.0.jar:/Users/amandhare/.m2/repository/io/rest-assured/json-schema-validator/4.2.0/json-schema-validator-4.2.0.jar:/Users/amandhare/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.10/json-schema-validator-2.2.10.jar:/Users/amandhare/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.10/json-schema-core-1.2.10.jar:/Users/amandhare/.m2/repository/com/github/java-json-tools/jackson-coreutils/1.9/jackson-coreutils-1.9.jar:/Users/amandhare/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar:/Users/amandhare/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar:/Users/amandhare/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar:/Users/amandhare/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/amandhare/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/amandhare/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/amandhare/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/amandhare/.m2/repository/org/mozilla/rhino/1.7.7.1/rhino-1.7.7.1.jar:/Users/amandhare/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/amandhare/.m2/repository/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar:/Users/amandhare/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.0.0/libphonenumber-8.0.0.jar:/Users/amandhare/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/amandhare/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/Users/amandhare/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/amandhare/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/amandhare/.m2/repository/com/aventstack/extentreports/4.1.1/extentreports-4.1.1.jar:/Users/amandhare/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/amandhare/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/amandhare/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/amandhare/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/amandhare/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/amandhare/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/amandhare/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/amandhare/.m2/repository/org/json/json/20190722/json-20190722.jar:/Users/amandhare/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/amandhare/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre/lib"/>
+    <property name="sun.java.command" value="/Users/amandhare/eclipse-workspace/RestAssuredFramework/target/surefire/surefirebooter5037248235361413239.jar /Users/amandhare/eclipse-workspace/RestAssuredFramework/target/surefire 2021-04-30T16-08-15_172-jvmRun1 surefire998797253646792388tmp surefire_09393509444858001386tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/amandhare/eclipse-workspace/RestAssuredFramework/target/test-classes:/Users/amandhare/eclipse-workspace/RestAssuredFramework/target/classes:/Users/amandhare/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/amandhare/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/amandhare/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/amandhare/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/amandhare/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/amandhare/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/amandhare/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/amandhare/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/amandhare/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/amandhare/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/amandhare/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/amandhare/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/amandhare/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/amandhare/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/amandhare/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/amandhare/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/amandhare/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/amandhare/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/amandhare/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/amandhare/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/amandhare/.m2/repository/io/rest-assured/json-path/4.1.0/json-path-4.1.0.jar:/Users/amandhare/.m2/repository/org/codehaus/groovy/groovy-json/2.5.6/groovy-json-2.5.6.jar:/Users/amandhare/.m2/repository/io/rest-assured/rest-assured-common/4.1.0/rest-assured-common-4.1.0.jar:/Users/amandhare/.m2/repository/io/rest-assured/json-schema-validator/4.2.0/json-schema-validator-4.2.0.jar:/Users/amandhare/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.10/json-schema-validator-2.2.10.jar:/Users/amandhare/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.10/json-schema-core-1.2.10.jar:/Users/amandhare/.m2/repository/com/github/java-json-tools/jackson-coreutils/1.9/jackson-coreutils-1.9.jar:/Users/amandhare/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar:/Users/amandhare/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar:/Users/amandhare/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.2.3/jackson-core-2.2.3.jar:/Users/amandhare/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/amandhare/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/amandhare/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/amandhare/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/amandhare/.m2/repository/org/mozilla/rhino/1.7.7.1/rhino-1.7.7.1.jar:/Users/amandhare/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/amandhare/.m2/repository/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar:/Users/amandhare/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.0.0/libphonenumber-8.0.0.jar:/Users/amandhare/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/amandhare/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/Users/amandhare/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/amandhare/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/amandhare/.m2/repository/com/aventstack/extentreports/4.1.1/extentreports-4.1.1.jar:/Users/amandhare/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/amandhare/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/amandhare/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/amandhare/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/amandhare/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/amandhare/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/amandhare/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/amandhare/.m2/repository/org/json/json/20190722/json-20190722.jar:/Users/amandhare/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/amandhare"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Users/amandhare/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/amandhare/eclipse-workspace/RestAssuredFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/amandhare/eclipse-workspace/RestAssuredFramework/target/surefire/surefirebooter5037248235361413239.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="amandhare"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/amandhare/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/2y/smn2vgqs3fs87kfthyrtw9bc0000gq/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/amandhare/eclipse-workspace/RestAssuredFramework"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/amandhare/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="Deset" classname="DeserializationTest.DeTest" time="1.087"/>
+  <testcase name="validPostApiRequest" classname="EmployeesInfo.PostAPITest" time="0.009">
+    <failure message="baseURI cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: baseURI cannot be null
+	at EmployeesInfo.PostAPITest.validPostApiRequest(PostAPITest.java:48)
+</failure>
+    <system-out><![CDATA[Its exception here so we are not getting daat from properties file
+Its exception here so we are not getting daat from properties file
+null
+null
+validPostApiRequest
+Random user id created is ::94Random Firstname of the user is created as ::CdRRandom last name of the user created as ::KffqZrandom subject id created for the user is ::35
+]]></system-out>
+  </testcase>
+  <testcase name="loginbase64" classname="EmployeesInfo.LoginBAse64Test" time="0.003"/>
+  <testcase name="serealizationtest" classname="EmployeesInfo.SerailizationTest" time="0.003">
+    <failure message="baseURI cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: baseURI cannot be null
+	at EmployeesInfo.SerailizationTest.serealizationtest(SerailizationTest.java:25)
+</failure>
+    <system-out><![CDATA[Its exception here so we are not getting daat from properties file
+Its exception here so we are not getting daat from properties file
+null
+null
+serealizationtest
+PostAPIPOjo [id=67, firstname=Shruti, lastname=kelkar, subjectd=90]
+]]></system-out>
+  </testcase>
+  <testcase name="getAPITest" classname="EmployeesInfo.getAPITest" time="0.001">
+    <failure message="baseURI cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: baseURI cannot be null
+	at EmployeesInfo.getAPITest.getAPITest(getAPITest.java:28)
+</failure>
+    <system-out><![CDATA[Its exception here so we are not getting daat from properties file
+Its exception here so we are not getting daat from properties file
+null
+null
+getAPITest
+]]></system-out>
+  </testcase>
+</testsuite>
