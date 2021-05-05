@@ -16,3 +16,5 @@ This is basic frmework here tried here.Tried to retrive fetch data from differen
 2.2.Employee Info: here created a get API class and post Api class here passing random data also specifica satat sets with some logic also  created package for deserialization .
 Created 3 data files to save the data  regarding particular environment  like dev, Qa,Staging
 To run the partitular class right click :Run configuration select a particular package  adn test then in vm arguments pass -Denv=dev or qa whichever nee to test
+
+•Created a mock json Server
