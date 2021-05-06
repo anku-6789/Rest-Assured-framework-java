@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "5f3ca3d1-a6ef-40cf-93d9-7edc722ba2ec",
+		"name": "RestAssuredjsonDBByMe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "  http://localhost:3000/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"FirstName\": \"Apek44sha\",\n        \"LastName\": \"jag44tap\",\n        \"SubjectId\": 34,\n        \"id\": \"4\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/users"
+			},
+			"response": []
+		},
+		{
+			"name": "  http://localhost:3000/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"FirstName\": \"Apek44323sha\",\n        \"LastName\": \"jag44323tap\",\n        \"SubjectId\": 34,\n        \"id\": \"5\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/users"
+			},
+			"response": []
+		},
+		{
+			"name": "  http://localhost:3000/users",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"FirstName\": \"Aboli\",\n        \"LastName\": \"birajdar\",\n        \"SubjectId\": 35,\n        \"id\": \"5\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/users/5"
+			},
+			"response": []
+		},
+		{
+			"name": "  http://localhost:3000/users",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"FirstName\": \"Amruta\",\n        \"LastName\": \"mane\"\n        \n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/users/4"
+			},
+			"response": []
+		}
+	]
+}
